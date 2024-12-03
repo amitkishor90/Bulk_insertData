@@ -1,4 +1,4 @@
-# Excel to SQL Server Bulk Insert using SqlBulkCopy
+# Excel to SQL Server Bulk Insert using SqlBulkCopy use Ado.net
 
 ## Overview
 

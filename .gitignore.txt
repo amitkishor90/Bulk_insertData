@@ -1,8 +1,9 @@
-# Ignore the .vs directory and its subdirectories
-.vs/
-.vs/SQLServerBulkInsert/
+# Ignore DLL files in specific directories
+DataAccessLayer/bin/**/*.dll
+DataAccessLayer/obj/**/*.dll
 
 # Other files and directories to ignore
+.vs/
 secrets.txt
 config.json
 *.log
@@ -10,4 +11,3 @@ config.json
 /build/
 *.bak
 *.tmp
-*.dll

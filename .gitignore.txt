@@ -1,2 +1,19 @@
+<<<<<<< HEAD
 # Ignore the obj directory
 SQLServerBulkInsert/obj/
+=======
+# Ignore bin and obj directories in BusinessLayer
+BusinessLayer/bin/
+BusinessLayer/obj/
+
+# Other files and directories to ignore
+.vs/
+secrets.txt
+config.json
+*.log
+/temp/
+/build/
+*.bak
+*.tmp
+*.dll
+>>>>>>> 9f696ce07fee137907361d0ce0eb4911714769d0

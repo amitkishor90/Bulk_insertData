@@ -81,4 +81,3 @@ C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\
 C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\obj\Debug\net9.0\SQLServerBulkInsert.MvcApplicationPartsAssemblyInfo.cs

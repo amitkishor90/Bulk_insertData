@@ -1,5 +1,7 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using DataAccessLayer;
+using BusinessLayer;  
 
 namespace BusinessLayer
 {
@@ -11,7 +13,9 @@ namespace BusinessLayer
         public BulkInsertData(IDatabaseService databaseService)
         {
             _databaseService = databaseService ?? throw new ArgumentNullException(nameof(databaseService));
+            
         }
+
         public void InsertBulkOrders(DataTable dt)
         {
             if (dt == null || dt.Rows.Count == 0)
@@ -21,8 +25,9 @@ namespace BusinessLayer
 
             try
             {
-                _databaseService.InsertOrdersToDatabase(dt); // Call the DatabaseService method
-                Console.WriteLine("Bulk insert completed successfully.");
+                // Use the constant from TableNamedb
+                
+                _databaseService.InsertOrdersToDatabase(Tablenamedb.Orders, dt); // Reference the constant Orders
             }
             catch (Exception ex)
             {

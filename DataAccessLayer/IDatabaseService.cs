@@ -9,6 +9,6 @@ namespace DataAccessLayer
 {
     public interface IDatabaseService
     {
-        void InsertOrdersToDatabase( DataTable orders);
+        void InsertOrdersToDatabase(string tablename, DataTable orders);
     }
 }

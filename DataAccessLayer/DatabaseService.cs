@@ -13,7 +13,7 @@ public class DatabaseService : IDatabaseService
         _dbConfig = dbConfig ?? throw new ArgumentNullException(nameof(dbConfig));
     }
 
-    public void InsertOrdersToDatabase(DataTable orders)
+    public void InsertOrdersToDatabase(string tablename, DataTable orders)
     {
         if (orders == null || orders.Rows.Count == 0)
         {
@@ -33,7 +33,7 @@ public class DatabaseService : IDatabaseService
 
             using (SqlBulkCopy bulkCopy = new SqlBulkCopy(connection))
             {
-                bulkCopy.DestinationTableName = "Orders"; // Specify the target table name
+                bulkCopy.DestinationTableName = tablename; // Specify the target table name
 
                 try
                 {

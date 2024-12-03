@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer
 {
-    internal interface IDatabaseService
+    public interface IDatabaseService
     {
-        void InsertOrdersToDatabase(string connectionString, DataTable orders);
+        void InsertOrdersToDatabase(string tablename, DataTable orders);
     }
 }

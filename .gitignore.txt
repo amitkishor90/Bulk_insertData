@@ -1,0 +1,14 @@
+# Ignore bin and obj directories in BusinessLayer
+BusinessLayer/bin/
+BusinessLayer/obj/
+
+# Other files and directories to ignore
+.vs/
+secrets.txt
+config.json
+*.log
+/temp/
+/build/
+*.bak
+*.tmp
+*.dll

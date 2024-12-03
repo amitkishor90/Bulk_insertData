@@ -1,0 +1,2 @@
+# Ignore all DLL files
+*.dll

@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer
+namespace BusinessLayer
 {
-    public interface IDatabaseService
+    public interface Isavebulkdata
     {
-        void InsertOrdersToDatabase( DataTable orders);
+       void InsertBulkOrders(DataTable dt);
     }
 }

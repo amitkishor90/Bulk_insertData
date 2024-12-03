@@ -1,7 +1,21 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Amit kishor\\source\\repos\\Bulk_insertData\\SQLServerBulkInsert\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB202A5-465B-4277-9555-50F6DD3A5033}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\amit kishor\\source\\repos\\bulk_insertdata\\dataaccesslayer\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB202A5-465B-4277-9555-50F6DD3A5033}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\amit kishor\\source\\repos\\bulk_insertdata\\dataaccesslayer\\idatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB202A5-465B-4277-9555-50F6DD3A5033}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\amit kishor\\source\\repos\\bulk_insertdata\\dataaccesslayer\\dbconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883555E0-CD58-4263-A21A-642C9CD5FE7F}|SQLServerBulkInsert.csproj|c:\\users\\amit kishor\\source\\repos\\bulk_insertdata\\sqlserverbulkinsert\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{883555E0-CD58-4263-A21A-642C9CD5FE7F}|SQLServerBulkInsert.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +23,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Amit kishor\\source\\repos\\Bulk_insertData\\DataAccessLayer\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\Amit kishor\\source\\repos\\Bulk_insertData\\DataAccessLayer\\DatabaseService.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\DatabaseService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:18:42.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Amit kishor\\source\\repos\\Bulk_insertData\\DataAccessLayer\\IDatabaseService.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\IDatabaseService.cs",
+              "ToolTip": "C:\\Users\\Amit kishor\\source\\repos\\Bulk_insertData\\DataAccessLayer\\IDatabaseService.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\IDatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:18:17.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Amit kishor\\source\\repos\\Bulk_insertData\\DataAccessLayer\\DbConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\DbConfiguration.cs",
+              "ToolTip": "C:\\Users\\Amit kishor\\source\\repos\\Bulk_insertData\\DataAccessLayer\\DbConfiguration.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\DbConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:17:01.161Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Amit kishor\\source\\repos\\Bulk_insertData\\SQLServerBulkInsert\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Amit kishor\\source\\repos\\Bulk_insertData\\SQLServerBulkInsert\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T11:05:12.495Z",
+              "EditorCaption": ""
             }
           ]
         }

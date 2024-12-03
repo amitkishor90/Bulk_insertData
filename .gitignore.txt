@@ -1,2 +1,14 @@
-# Ignore all DLL files
+# Ignore the .vs directory
+.vs/
+.vs/SQLServerBulkInsert/
+
+
+# Other files and directories to ignore
+secrets.txt
+config.json
+*.log
+/temp/
+/build/
+*.bak
+*.tmp
 *.dll

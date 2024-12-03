@@ -6,16 +6,25 @@ using Microsoft.Data.SqlClient;
 
 public class DatabaseService : IDatabaseService
 {
-    public void InsertOrdersToDatabase(string connectionString, DataTable orders)
-    {
-        if (string.IsNullOrEmpty(connectionString))
-        {
-            throw new ArgumentException("Connection string cannot be null or empty.", nameof(connectionString));
-        }
+    private readonly DbConfiguration _dbConfig;
 
+    public DatabaseService(DbConfiguration dbConfig)
+    {
+        _dbConfig = dbConfig ?? throw new ArgumentNullException(nameof(dbConfig));
+    }
+
+    public void InsertOrdersToDatabase(DataTable orders)
+    {
         if (orders == null || orders.Rows.Count == 0)
         {
             throw new ArgumentException("Orders DataTable cannot be null or empty.", nameof(orders));
+        }
+
+        string? connectionString = _dbConfig.ConnectionString;
+
+        if (string.IsNullOrEmpty(connectionString))
+        {
+            throw new InvalidOperationException("Connection string cannot be null or empty.");
         }
 
         using (SqlConnection connection = new SqlConnection(connectionString))

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SQLServerBulkInsert")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84f612c8967f3cc9786ec8c1b62cb221387f0bb7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34e151f1ac8ac14b578ac4cab9238dea14b76cc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SQLServerBulkInsert")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SQLServerBulkInsert")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

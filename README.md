@@ -23,4 +23,4 @@ This project provides a high-performance solution for importing large datasets (
 ### 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/excel-to-sql-server-bulk-insert.git
+git clone https://github.com/your-username/excel-to-sql-server-bulk-insert.git 

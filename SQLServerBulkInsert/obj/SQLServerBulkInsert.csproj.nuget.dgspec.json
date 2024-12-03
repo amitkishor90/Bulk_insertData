@@ -201,9 +201,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.2.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
             }
           },
           "imports": [

@@ -70,3 +70,15 @@ C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\
 C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\DataAccessLayer.dll
 C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\BusinessLayer.pdb
 C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\DataAccessLayer.pdb
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\EPPlus.dll
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\EPPlus.Interfaces.dll
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\EPPlus.System.Drawing.dll
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Amit kishor\source\repos\Bulk_insertData\SQLServerBulkInsert\obj\Debug\net9.0\SQLServerBulkInsert.MvcApplicationPartsAssemblyInfo.cs

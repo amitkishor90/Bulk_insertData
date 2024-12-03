@@ -1,6 +1,0 @@
-@SQLServerBulkInsert_HostAddress = http://localhost:5171
-
-GET {{SQLServerBulkInsert_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

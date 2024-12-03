@@ -17,6 +17,8 @@ This project provides a high-performance solution for importing large datasets (
 - **ExcelDataReader** library for reading Excel files.
 - **SQL Server** with a connection string to an existing database.
 - **Excel file** with the data to be imported.
+- dotnet add package Microsoft.Data.SqlClient
+
 
 ## Installation
 

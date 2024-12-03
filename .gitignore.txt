@@ -1,7 +1,6 @@
-# Ignore the .vs directory
+# Ignore the .vs directory and its subdirectories
 .vs/
 .vs/SQLServerBulkInsert/
-
 
 # Other files and directories to ignore
 secrets.txt
